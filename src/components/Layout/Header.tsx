@@ -4,6 +4,7 @@ import Hamburger from "hamburger-react";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { MENUS } from "@/lib/constants";
+import Link from "next/link";
 
 const Header = () => {
   const [isOpen, setOpen] = useState(false);
@@ -17,12 +18,14 @@ const Header = () => {
       <ul className="hidden bulma-container lg:flex items-center h-16 justify-center gap-8">
         {MENUS.map((item, index) => {
           return (
-            <li
+            <Link
+              href={item.url}
               key={index}
-              className="capitalize text-white font-light tracking-wider cursor-pointer hover:scale-[1.04] transition-all"
             >
-              {item.label}
-            </li>
+              <li className="capitalize text-white font-light tracking-wider cursor-pointer hover:scale-[1.04] transition-all">
+                {item.label}
+              </li>
+            </Link>
           );
         })}
       </ul>

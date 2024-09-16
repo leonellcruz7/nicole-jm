@@ -13,7 +13,10 @@ const WeddingParty = () => {
   const ref = useRef(null);
   const inView = useInView(ref);
   return (
-    <div className="py-20">
+    <div
+      id="wedding-party"
+      className="py-20"
+    >
       <div className="text-center text-white">
         <p
           className={cn(

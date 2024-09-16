@@ -5,7 +5,10 @@ import React from "react";
 
 const Gallery = () => {
   return (
-    <div className="text-center space-y-10 py-20">
+    <div
+      id="gallery"
+      className="text-center space-y-10 py-20"
+    >
       <p className=" cursive text-[80px] md:text-[100px]">Gallery</p>
       <ul className="flex items-center w-full overflow-x-scroll py-4 gap-4 snap-x">
         {GALLERY.map((item, index) => {

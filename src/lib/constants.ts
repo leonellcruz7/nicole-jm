@@ -1,31 +1,31 @@
 export const MENUS = [
   {
     label: "home",
-    url: "/",
+    url: "#home",
   },
   {
     label: "our story",
-    url: "/",
+    url: "#our-story",
   },
   {
     label: "the details",
-    url: "/",
+    url: "#details",
   },
   {
     label: "gallery",
-    url: "/",
+    url: "#gallery",
   },
   {
     label: "wedding party",
-    url: "/",
+    url: "#wedding-party",
   },
   {
     label: "travel guide",
-    url: "/",
+    url: "#travel-guide",
   },
   {
     label: "FAQs",
-    url: "/",
+    url: "#faqs",
   },
   {
     label: "Registry",

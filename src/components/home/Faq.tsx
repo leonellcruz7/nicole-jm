@@ -9,7 +9,10 @@ import { faqs } from "@/lib/constants";
 
 const Faq = () => {
   return (
-    <div className="px-10 py-12 md:py-24 max-w-[800px] mx-auto space-y-12">
+    <div
+      id="faqs"
+      className="px-10 py-12 md:py-24 max-w-[800px] mx-auto space-y-12"
+    >
       <p className="text-center cursive text-[40px]">
         Frequently Asked Questions
       </p>

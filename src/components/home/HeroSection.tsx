@@ -4,7 +4,10 @@ import { motion } from "framer-motion";
 
 const HeroSection = () => {
   return (
-    <div className="relative bg-red-50 flex items-center justify-center h-screen py-10">
+    <div
+      id="home"
+      className="relative bg-red-50 flex items-center justify-center h-screen py-10"
+    >
       <Image
         width={1000}
         height={1000}

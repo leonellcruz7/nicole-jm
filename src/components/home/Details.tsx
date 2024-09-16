@@ -17,7 +17,10 @@ const Details = () => {
     once: true,
   });
   return (
-    <div className="bg-main p-10 md:p-24 text-white text-center space-y-10">
+    <div
+      id="details"
+      className="bg-main p-10 md:p-24 text-white text-center space-y-10"
+    >
       <p
         className={cn(
           "text-[40px] md:text-[100px] cursive",

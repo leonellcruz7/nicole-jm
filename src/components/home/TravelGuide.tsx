@@ -7,7 +7,10 @@ import { useRouter } from "next/navigation";
 const TravelGuide = () => {
   const router = useRouter();
   return (
-    <div className="bg-main p-10 space-y-12 text-white">
+    <div
+      id="travel-guide"
+      className="bg-main p-10 space-y-12 text-white"
+    >
       <p className="cursive text-[50px] md:text-[60px] text-center">
         Travel Guide
       </p>

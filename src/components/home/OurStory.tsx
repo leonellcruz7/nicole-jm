@@ -11,7 +11,10 @@ const OurStory = () => {
   });
 
   return (
-    <div className={cn("text-center p-6 md:p-10 space-y-12")}>
+    <div
+      id="our-story"
+      className={cn("text-center p-6 md:p-10 space-y-12")}
+    >
       <div className="flex flex-col md:flex-row gap-12 mx-auto w-fit">
         <div
           ref={ref}
