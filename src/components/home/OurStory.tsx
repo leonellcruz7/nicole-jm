@@ -9,7 +9,7 @@ const OurStory = () => {
           <Image
             width={500}
             height={500}
-            src="/images/gal1.jpg"
+            src="/images/gal1.JPG"
             alt=""
             className="h-full"
           />
@@ -18,7 +18,7 @@ const OurStory = () => {
           <Image
             width={500}
             height={500}
-            src="/images/gal2.jpg"
+            src="/images/gal2.JPG"
             alt=""
             className="h-full"
           />
