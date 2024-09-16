@@ -21,7 +21,7 @@ const TravelGuide = () => {
         />
         <div className="text-center space-y-4 flex flex-col justify-center">
           <p className="text-[24px] md:text-[40px] font-bold">
-            Flor's Garden Antipolo
+            Flor&apos;s Garden Antipolo
           </p>
           <p className="leading-[120%]">
             Address: Sitio Tanza 2, <br className="md:hidden" /> Brgy. San Jose,

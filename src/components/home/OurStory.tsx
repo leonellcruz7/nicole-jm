@@ -36,30 +36,31 @@ const OurStory = () => {
           swipe right on someone who works out as she never had an active
           lifestyle and thought to only swipe on someone she believes she has
           the same interests with. However, that night something came up to her,
-          and she thought why not give it a chance? She saw Vince's profile with
-          nothing written on his bio and immediately became curious about this
-          mysterious human being. On the other hand, Vince saw Nicole's profile
-          with an essay in her bio, but he didn't bother reading it because he
-          thought she was cute (he still thinks she is). Nicole started their
-          conversation with the question "Do you like cats?" Vince responded
-          with a photo of him cuddling a cat. Instant points for him. Nicole
-          then saw the opportunity to offer Vince the preloved clothes she was
-          selling at that time and Vince bought one hoodie that led to them
-          asking "San tayo magmeet?" It was the first time Nicole agreed to meet
-          someone she only knew online so she kept thinking, "Pag ako namatay,
-          bahala na." Luckily, Vince wasn't a killer. They met the day after
-          Christmas and spent the whole day telling each other stories,
-          laughing, and being more interested in one another. Days turned into a
-          week, and after 7 days, Vince told Nicole his feelings for her. Nicole
-          felt it too but wanted to be sure so she gave it more time (Konting
-          pabebe lang). Weeks turned into a month, and Nicole finally told Vince
-          she feels the same way too. And they had never been happier ever
-          since...
+          and she thought why not give it a chance? She saw Vince&apos;s profile
+          with nothing written on his bio and immediately became curious about
+          this mysterious human being. On the other hand, Vince saw
+          Nicole&apos;s profile with an essay in her bio, but he didn&apos;t
+          bother reading it because he thought she was cute (he still thinks she
+          is). Nicole started their conversation with the question &quot;Do you
+          like cats?&quot; Vince responded with a photo of him cuddling a cat.
+          Instant points for him. Nicole then saw the opportunity to offer Vince
+          the preloved clothes she was selling at that time and Vince bought one
+          hoodie that led to them asking &quot;San tayo magmeet?&quot; It was
+          the first time Nicole agreed to meet someone she only knew online so
+          she kept thinking, &quot;Pag ako namatay, bahala na.&quot; Luckily,
+          Vince wasn&apos;t a killer. They met the day after Christmas and spent
+          the whole day telling each other stories, laughing, and being more
+          interested in one another. Days turned into a week, and after 7 days,
+          Vince told Nicole his feelings for her. Nicole felt it too but wanted
+          to be sure so she gave it more time (Konting pabebe lang). Weeks
+          turned into a month, and Nicole finally told Vince she feels the same
+          way too. And they had never been happier ever since...
         </p>
 
         <p>
           Until Christmas 2023 came and this time Vince started the conversation
-          with the question "Will you marry me?" and you know the rest.
+          with the question &quot;Will you marry me?&quot; and you know the
+          rest.
         </p>
       </div>
     </div>

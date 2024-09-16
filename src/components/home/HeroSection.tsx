@@ -22,7 +22,7 @@ const HeroSection = () => {
           </p>
         </div>
         <p className="absolute bottom-5 text-white text-[32px] md:text-[40px]">
-          We're getting married!
+          We&apos;re getting married!
         </p>
       </div>
     </div>

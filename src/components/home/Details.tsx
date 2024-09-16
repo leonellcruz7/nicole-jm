@@ -20,7 +20,7 @@ const Details = () => {
             <p className="text-[60px]">3:00 PM</p>
           </div>
           <p className="cursive text-[40px] md:text-[60px]">
-            Flor's Garden Antipolo
+            Flor&apos;s Garden Antipolo
           </p>
           <p>
             We joyfully invite you to join us in celebrating our wedding as we

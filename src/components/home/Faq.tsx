@@ -17,9 +17,12 @@ const Faq = () => {
         type="single"
         collapsible
       >
-        {faqs.map((item) => {
+        {faqs.map((item, index) => {
           return (
-            <AccordionItem value="item-1">
+            <AccordionItem
+              key={index}
+              value="item-1"
+            >
               <AccordionTrigger>{item.q}</AccordionTrigger>
               <AccordionContent>{item.a}</AccordionContent>
             </AccordionItem>
