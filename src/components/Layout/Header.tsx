@@ -50,13 +50,11 @@ const Header = () => {
             {MENUS.map((item, index) => {
               return (
                 <Link
+                  key={index}
                   href={item.url}
                   onClick={() => setOpen((prev) => !prev)}
                 >
-                  <li
-                    key={index}
-                    className="capitalize hover:bg-slate-200 font-light tracking-wider p-4 cursor-pointer transition-all text-white"
-                  >
+                  <li className="capitalize hover:bg-slate-200 font-light tracking-wider p-4 cursor-pointer transition-all text-white">
                     {item.label}
                   </li>
                 </Link>
