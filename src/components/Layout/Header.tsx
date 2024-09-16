@@ -49,12 +49,17 @@ const Header = () => {
           <ul className="flex flex-col items-center justify-center text-center gap-10">
             {MENUS.map((item, index) => {
               return (
-                <li
-                  key={index}
-                  className="capitalize hover:bg-slate-200 font-light tracking-wider p-4 cursor-pointer transition-all text-white"
+                <Link
+                  href={item.url}
+                  onClick={() => setOpen((prev) => !prev)}
                 >
-                  {item.label}
-                </li>
+                  <li
+                    key={index}
+                    className="capitalize hover:bg-slate-200 font-light tracking-wider p-4 cursor-pointer transition-all text-white"
+                  >
+                    {item.label}
+                  </li>
+                </Link>
               );
             })}
           </ul>
