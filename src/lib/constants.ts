@@ -65,7 +65,17 @@ export const GALLERY = [
 ];
 
 export const WEDDING_PARTY = [
+  "Bride: Nicole Villanueva",
+  "Groom: John Michael Vincent Oliveros",
   "Officiant: Rev. Michael Sagarbarria Jr.",
+  "Parent of the Bride: Vilma Villanueva",
+  "Parent of the Groom: Leonida Oliveros",
+  "Principal Sponsors: Maricarl Tolosa and Carlito Tolosa",
+  "Bible: Jennifer Lee Tolosa",
+  "Ring bearer: Mark Joseph Paul Oliveros",
+  "Coin bearer: Tetrizzia Oliveros",
+  "Candles: Ivory Claire Acordon",
+  "Veil and Cord: Zarina and Elmer Dolotina",
   "Best Man: Bryan Robert Maguinlang",
   "Maid of Honor: Shaira Mae Oberio",
 ];

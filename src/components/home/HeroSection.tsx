@@ -20,7 +20,7 @@ const HeroSection = () => {
           <motion.p
             initial={{ x: 10 }}
             animate={{ x: -80 }}
-            transition={{ type: "spring", bounce: 0, duration: 0.8 }}
+            transition={{ type: "spring", bounce: 0, duration: 1.8 }}
             className="text-[100px] md:text-[260px] cursive"
           >
             Nicole
@@ -29,7 +29,7 @@ const HeroSection = () => {
           <motion.p
             initial={{ x: -10 }}
             animate={{ x: 80 }}
-            transition={{ type: "spring", bounce: 0, duration: 1.2 }}
+            transition={{ type: "spring", bounce: 0, duration: 2.2 }}
             className="text-[100px] md:text-[260px] translate-x-16 cursive"
           >
             Vince
@@ -38,7 +38,7 @@ const HeroSection = () => {
         <motion.p
           initial={{ y: 100 }}
           animate={{ y: 0 }}
-          transition={{ type: "spring", bounce: 0 }}
+          transition={{ type: "spring", bounce: 0, duration: 1.6 }}
           className="absolute cursive bottom-5 text-white text-[32px] md:text-[40px]"
         >
           We&apos;re getting married!

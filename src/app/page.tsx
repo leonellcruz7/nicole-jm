@@ -13,7 +13,7 @@ export default function Home() {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      transition={{ type: "spring", duration: 1, bounce: 0 }}
+      transition={{ type: "spring", duration: 2.5, bounce: 0 }}
     >
       <HeroSection />
       <OurStory />

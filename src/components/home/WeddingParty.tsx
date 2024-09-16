@@ -11,11 +11,13 @@ import React, { useRef } from "react";
 
 const WeddingParty = () => {
   const ref = useRef(null);
-  const inView = useInView(ref);
+  const inView = useInView(ref, {
+    once: true,
+  });
   return (
     <div
       id="wedding-party"
-      className="py-20"
+      className="py-20 mx-2"
     >
       <div className="text-center text-white">
         <p
@@ -32,7 +34,13 @@ const WeddingParty = () => {
           className="space-y-10 bg-main m-4 px-12 md:px-24 py-10 w-fit mx-auto"
         >
           <div className="space-y-4">
-            <div className={cn(FADE_IN.initial, inView && FADE_IN.animate)}>
+            <div
+              className={cn(
+                FADE_IN.initial,
+                inView && FADE_IN.animate,
+                "space-y-4"
+              )}
+            >
               {WEDDING_PARTY.map((item, index) => {
                 return <p key={index}>{item}</p>;
               })}
@@ -53,7 +61,7 @@ const WeddingParty = () => {
               className={cn(
                 FADE_IN.initial,
                 inView && FADE_IN.animate,
-                "delay-200"
+                "delay-200 space-y-2"
               )}
             >
               {BRIDESMAIDS.map((item, index) => {
@@ -76,7 +84,7 @@ const WeddingParty = () => {
               className={cn(
                 FADE_IN.initial,
                 inView && FADE_IN.animate,
-                "delay-500"
+                "delay-500 space-y-2"
               )}
             >
               {GROOMSMEN.map((item, index) => {
