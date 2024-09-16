@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { motion } from "framer-motion";
 
 const HeroSection = () => {
   return (
@@ -13,17 +14,32 @@ const HeroSection = () => {
       />
       <div className="z-10 flex justify-center text-center space-y-4">
         <div className="text-white leading-[500%] md:leading-[1000%]">
-          <p className="text-[100px] md:text-[260px] -translate-x-16 cursive">
+          <motion.p
+            initial={{ x: 10 }}
+            animate={{ x: -80 }}
+            transition={{ type: "spring", bounce: 0, duration: 0.8 }}
+            className="text-[100px] md:text-[260px] cursive"
+          >
             Nicole
-          </p>
+          </motion.p>
           <p>AND</p>
-          <p className="text-[100px] md:text-[260px] translate-x-16 cursive">
+          <motion.p
+            initial={{ x: -10 }}
+            animate={{ x: 80 }}
+            transition={{ type: "spring", bounce: 0, duration: 1.2 }}
+            className="text-[100px] md:text-[260px] translate-x-16 cursive"
+          >
             Vince
-          </p>
+          </motion.p>
         </div>
-        <p className="absolute bottom-5 text-white text-[32px] md:text-[40px]">
+        <motion.p
+          initial={{ y: 100 }}
+          animate={{ y: 0 }}
+          transition={{ type: "spring", bounce: 0 }}
+          className="absolute cursive bottom-5 text-white text-[32px] md:text-[40px]"
+        >
           We&apos;re getting married!
-        </p>
+        </motion.p>
       </div>
     </div>
   );

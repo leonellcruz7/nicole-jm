@@ -100,3 +100,8 @@ export const faqs = [
     a: "If you can RSVP when you receive your invitation, that would be great and extremely helpful! To those who cannot RSVP yet, please do it no later than November 10th, 2024. If you do not RSVP by November 10th, we will be unable to accommodate you at our wedding. We will miss you celebrating with us, however, we cannot accept late RSVPs and we will mark any unanswered responses as 'declined'.",
   },
 ];
+
+export const FADE_IN = {
+  initial: "translate-y-20 transition-all opacity-0 duration-1000",
+  animate: "translate-y-0 opacity-1",
+};

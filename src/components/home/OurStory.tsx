@@ -1,11 +1,26 @@
 import Image from "next/image";
-import React from "react";
+import React, { useRef } from "react";
+import { motion, useInView } from "framer-motion";
+import { cn } from "@/lib/utils";
+import { FADE_IN } from "@/lib/constants";
 
 const OurStory = () => {
+  const ref = useRef(null);
+  const inView = useInView(ref, {
+    once: true,
+  });
+
   return (
-    <div className="text-center p-6 md:p-10 space-y-12">
+    <div className={cn("text-center p-6 md:p-10 space-y-12")}>
       <div className="flex flex-col md:flex-row gap-12 mx-auto w-fit">
-        <div>
+        <div
+          ref={ref}
+          className={cn(
+            "delay-100",
+            FADE_IN.initial,
+            inView && FADE_IN.animate
+          )}
+        >
           <Image
             width={500}
             height={500}
@@ -14,7 +29,13 @@ const OurStory = () => {
             className="h-full"
           />
         </div>
-        <div>
+        <div
+          className={cn(
+            "delay-200",
+            FADE_IN.initial,
+            inView && FADE_IN.animate
+          )}
+        >
           <Image
             width={500}
             height={500}
@@ -24,8 +45,22 @@ const OurStory = () => {
           />
         </div>
       </div>
-      <p className="text-[60px] md:text-[144px] cursive">Our Story</p>
-      <div className="max-w-[900px] mx-auto text-[18px] md:text-[24px] space-y-10">
+      <p
+        className={cn(
+          "text-[60px] md:text-[144px] cursive delay-500",
+          FADE_IN.initial,
+          inView && FADE_IN.animate
+        )}
+      >
+        Our Story
+      </p>
+      <div
+        className={cn(
+          "max-w-[900px] mx-auto text-[18px] md:text-[24px] space-y-10 delay-700",
+          FADE_IN.initial,
+          inView && FADE_IN.animate
+        )}
+      >
         <p>
           It all started with a swipe. Days before Christmas 2022, the stars
           aligned and they matched on Bumble! And the rest was history.

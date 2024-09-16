@@ -8,7 +8,12 @@ import { MENUS } from "@/lib/constants";
 const Header = () => {
   const [isOpen, setOpen] = useState(false);
   return (
-    <header className="w-full fixed bg-slate-900/40 top-0 z-50 backdrop-blur-sm shadow-lg">
+    <motion.header
+      initial={{ y: -80 }}
+      animate={{ y: 0 }}
+      transition={{ type: "spring", bounce: 0, duration: 1.3 }}
+      className="w-full fixed bg-slate-900/40 top-0 z-50 backdrop-blur-sm shadow-lg"
+    >
       <ul className="hidden bulma-container lg:flex items-center h-16 justify-center gap-8">
         {MENUS.map((item, index) => {
           return (
@@ -52,7 +57,7 @@ const Header = () => {
           </ul>
         </motion.ul>
       </div>
-    </header>
+    </motion.header>
   );
 };
 
