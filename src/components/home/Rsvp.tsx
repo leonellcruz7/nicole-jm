@@ -51,7 +51,7 @@ const Rsvp = () => {
   return (
     <div
       id="rsvp"
-      className="px-10 py-12 bg-main"
+      className="px-10 py-12 pt-4 bg-main"
     >
       <div className="max-w-[600px] mx-auto space-y-4 mt-10">
         <p className="text-center cursive text-white font-bold text-[40px]">
