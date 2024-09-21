@@ -29,7 +29,11 @@ export const MENUS = [
   },
   {
     label: "Registry",
-    url: "/",
+    url: "#registry",
+  },
+  {
+    label: "RSVP",
+    url: "#rsvp",
   },
 ];
 

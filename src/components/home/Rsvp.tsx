@@ -50,7 +50,10 @@ const Rsvp = () => {
     }
   };
   return (
-    <div className="px-10 py-12 bg-main">
+    <div
+      id="rsvp"
+      className="px-10 py-12 bg-main"
+    >
       <div className="max-w-[600px] mx-auto space-y-4 mt-10">
         <p className="text-center cursive text-white font-bold text-[40px]">
           Nicole and Vince Rsvp Form

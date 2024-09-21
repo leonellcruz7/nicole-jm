@@ -3,7 +3,10 @@ import React from "react";
 
 const Registry = () => {
   return (
-    <div className="space-y-6 py-12">
+    <div
+      id="registry"
+      className="space-y-6 py-12"
+    >
       <p className="text-main text-[40px] md:text-[60px] text-center cursive font-bold">
         Registry
       </p>
