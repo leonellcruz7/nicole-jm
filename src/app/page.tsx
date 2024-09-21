@@ -8,6 +8,7 @@ import TravelGuide from "@/components/home/TravelGuide";
 import Faq from "@/components/home/Faq";
 import Rsvp from "@/components/home/Rsvp";
 import { motion } from "framer-motion";
+import Registry from "@/components/home/Registry";
 export default function Home() {
   return (
     <motion.div
@@ -22,6 +23,7 @@ export default function Home() {
       <WeddingParty />
       <TravelGuide />
       <Faq />
+      <Registry />
       <Rsvp />
     </motion.div>
   );
