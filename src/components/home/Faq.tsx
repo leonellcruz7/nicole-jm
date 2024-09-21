@@ -24,7 +24,7 @@ const Faq = () => {
           return (
             <AccordionItem
               key={index}
-              value="item-1"
+              value={item.q}
             >
               <AccordionTrigger>{item.q}</AccordionTrigger>
               <AccordionContent>{item.a}</AccordionContent>
