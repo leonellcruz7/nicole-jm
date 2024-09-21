@@ -18,8 +18,7 @@ const Rsvp = () => {
     list: [],
   });
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+  const handleSubmit = async () => {
     setLoading(true);
     const { name, contact, list } = form;
     try {
