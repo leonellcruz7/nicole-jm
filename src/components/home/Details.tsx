@@ -43,7 +43,7 @@ const Details = () => {
                 inView && FADE_IN.animate
               )}
             >
-              December 12, 2024
+              December 10, 2024
             </p>
             <p
               className={cn(

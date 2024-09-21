@@ -22,7 +22,7 @@ export default function Home() {
       <WeddingParty />
       <TravelGuide />
       <Faq />
-      {/* <Rsvp /> */}
+      <Rsvp />
     </motion.div>
   );
 }
