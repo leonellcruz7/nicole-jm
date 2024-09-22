@@ -9,11 +9,11 @@ const HeroSection = () => {
       className="relative bg-red-50 flex items-center justify-center h-screen py-10"
     >
       <Image
-        width={1000}
-        height={1000}
+        width={1920}
+        height={1920}
         alt="hero"
-        src="/images/hero-image.jpg"
-        className="h-screen w-full absolute object-cover top-0"
+        src="/images/gal20.JPG"
+        className="h-screen w-full absolute object-cover top-0 brightness-75"
       />
       <div className="z-10 flex justify-center text-center space-y-4">
         <div className="text-white leading-[500%] md:leading-[1000%]">

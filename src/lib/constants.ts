@@ -103,7 +103,7 @@ export const faqs = [
   },
   {
     q: "CAN I BRING A PLUS ONE?",
-    a: "While we adore all the little ones in our lives, we have opted for an adults-only celebration to ensure that everyone can relax and enjoy.",
+    a: "No. We have chosen to keep our wedding intimate with close family and friends.",
   },
   {
     q: "CAN I BRING MY KIDS?",
